@@ -1,0 +1,553 @@
+@import url(./fonts.css);
+@import url(./common.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./responsive.css);
+
+/*dark-light*/
+
+#dark-light {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#dark-light img {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 32px;
+  height: 32px;
+}
+
+.dark {
+  background-color: black;
+}
+
+.dark header {
+  background-color: black;
+}
+
+.dark * {
+  color: black !important;
+}
+
+.dark header {
+  background-image: linear-gradient(90deg, grey 52%, #fff 48%);
+}
+
+.dark .section-3 {
+  background-color: grey;
+}
+
+.dark .section-5 {
+  background-color: grey;
+}
+
+.dark .section-4 {
+  background-color: grey;
+}
+/*dark-light*/
+
+.section-1 {
+  background-color: #fdd04a;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-2 {
+  margin-top: 120px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 58px;
+  text-align: center;
+  color: #222730;
+}
+
+.heading-2 img {
+  width: 250px;
+  margin-left: 100px;
+}
+
+.paragraph-2 p {
+  margin-top: 20px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #555555;
+}
+
+.logotip img {
+  margin-bottom: 100px;
+  margin-top: 15px;
+  padding-left: 15px;
+  width: 181px;
+  height: 170px;
+}
+/*section end*/
+
+/*section-2 start */
+
+.section-2 {
+  background-image: url(../images/pubg-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flame {
+  padding-top: 110px;
+}
+
+.flame img {
+  margin-bottom: -25px;
+  margin-left: 415px;
+}
+
+.flame p {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #57b8ff;
+}
+
+.heading-3 h1 {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.paragraph-3 p {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(223, 223, 223, 0.8);
+  margin-top: 50px;
+}
+
+.box-1 img {
+  margin-bottom: -50px;
+  margin-left: 43px;
+}
+
+.box-1 h3 {
+  padding-top: 10px;
+  padding-left: 83px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.box-1 p {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+.boxes {
+  gap: 30px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.box-1 {
+  border-radius: 20px;
+  width: 540px;
+  height: 230px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.box-1:hover {
+  border-color: #fffc31;
+  cursor: pointer;
+}
+
+.box-1 p:hover {
+  color: #fffc31;
+  cursor: pointer;
+}
+
+.box-1 h3:hover {
+  color: #fffc31;
+  cursor: pointer;
+}
+/*section-2 end*/
+
+/*section-3 start*/
+.section-3 {
+  background-color: black;
+}
+
+.about-left img {
+  margin-bottom: -145px;
+}
+
+.about-left p {
+  margin-top: 120px;
+  margin-left: 45px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+
+.about-left h2 {
+  margin-top: 25px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 74px;
+  color: #ffffff;
+}
+
+.paragraph-4 {
+  margin-top: 45px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+.btn-4 {
+  margin-top: 55px;
+  margin-bottom: 100px;
+  background: #57b8ff;
+  border-radius: 0px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 178px;
+  height: 62px;
+  color: #ffffff;
+  border: transparent;
+}
+
+.btn-4:hover {
+  color: #fac422;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.about-right video {
+  width: 400px;
+  height: 400px;
+  margin-left: 700px;
+  margin-top: -1000px;
+  margin-bottom: 220px;
+}
+
+/*section-3 end*/
+
+/*section-4 start*/
+.x-box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.x-box-1 {
+  background-image: url(../images/strike-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 451px;
+  height: 730px;
+}
+
+.x-box-2 {
+  background-image: url(../images/strike-team.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 450px;
+  height: 730px;
+}
+
+.x-box-3 {
+  background-image: url(../images/strike-map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 448px;
+  height: 730px;
+}
+
+.x-box img {
+  margin-bottom: -400px;
+  margin-left: 160px;
+}
+
+.x-box-1 h2 {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 400px;
+}
+
+.x-box-2 h2 {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 400px;
+}
+
+.x-box-3 h2 {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 400px;
+}
+
+.x-box-1 h2:hover {
+  color: #fffc31;
+}
+
+.x-box-2 h2:hover {
+  color: #fffc31;
+}
+
+.x-box-3 h2:hover {
+  color: #fffc31;
+}
+/*section-4 end*/
+
+/*section-5 start*/
+.section-5 {
+  background-color: #000;
+}
+
+.card-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-heading img {
+  margin-top: 100px;
+  margin-bottom: -25px;
+}
+
+.card-heading p {
+  margin-bottom: 50px;
+  margin-left: 45px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+
+.card-heading h2 {
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: #ffffff;
+}
+
+.card-heading button {
+  margin-top: 250px;
+  background: #57b8ff;
+  border-radius: 0px;
+  width: 175px;
+  height: 70px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.card-heading button:hover {
+  color: #fac422;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card-image img {
+  margin-top: 80px;
+  width: 500px;
+}
+
+.card-image p {
+  margin-top: 55px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #57b8ff;
+}
+
+.card-image h3 {
+  margin-top: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.four-card {
+  position: relative;
+  display: flex;
+}
+
+.images-card-1 {
+  width: 300px;
+  margin-top: -590px;
+  margin-left: 510px;
+}
+
+.images-card-1 p {
+  margin-top: 5px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+
+.images-card-1 h4 {
+  margin-top: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.images-card-2 {
+  width: 300px;
+  margin-top: -590px;
+  margin-left: 10px;
+}
+
+.images-card-2 p {
+  margin-top: 5px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+
+.images-card-2 h4 {
+  margin-top: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.images-card-3 {
+  width: 300px;
+  margin-top: -280px;
+  margin-left: -610px;
+}
+
+.images-card-3 p {
+  margin-top: 5px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+
+.images-card-3 h4 {
+  margin-top: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.images-card-4 {
+  width: 300px;
+  margin-top: -280px;
+  margin-left: 25px;
+}
+
+.images-card-4 p {
+  margin-top: 5px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+}
+
+.images-card-4 h4 {
+  margin-top: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.card-box {
+  padding-bottom: 100px;
+}
